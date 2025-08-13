@@ -1,0 +1,11 @@
+{
+    "name": "gakumasu-photo-share",
+    "private": true,
+    "workspaces": ["apps/*", "packages/*"],
+    "scripts": {
+      "dev:expo": "npm --workspace apps/expo start",
+      "dev:api": "npm --workspace apps/hono-api run dev",
+      "build:api": "npm --workspace apps/hono-api run build"
+    }
+  }
+  
